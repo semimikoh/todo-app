@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/semimikoh/todo-app/static/css/main.073c9b0a.css",
-    "main.js": "/semimikoh/todo-app/static/js/main.1e4c45a9.js",
-    "static/js/787.97a945da.chunk.js": "/semimikoh/todo-app/static/js/787.97a945da.chunk.js",
-    "index.html": "/semimikoh/todo-app/index.html",
-    "main.073c9b0a.css.map": "/semimikoh/todo-app/static/css/main.073c9b0a.css.map",
-    "main.1e4c45a9.js.map": "/semimikoh/todo-app/static/js/main.1e4c45a9.js.map",
-    "787.97a945da.chunk.js.map": "/semimikoh/todo-app/static/js/787.97a945da.chunk.js.map"
+    "main.css": "/semimikoh/todo-app.git/static/css/main.073c9b0a.css",
+    "main.js": "/semimikoh/todo-app.git/static/js/main.52de7d3b.js",
+    "static/js/787.97a945da.chunk.js": "/semimikoh/todo-app.git/static/js/787.97a945da.chunk.js",
+    "index.html": "/semimikoh/todo-app.git/index.html",
+    "main.073c9b0a.css.map": "/semimikoh/todo-app.git/static/css/main.073c9b0a.css.map",
+    "main.52de7d3b.js.map": "/semimikoh/todo-app.git/static/js/main.52de7d3b.js.map",
+    "787.97a945da.chunk.js.map": "/semimikoh/todo-app.git/static/js/787.97a945da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1e4c45a9.js"
+    "static/js/main.52de7d3b.js"
   ]
 }
