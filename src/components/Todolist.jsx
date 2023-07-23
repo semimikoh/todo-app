@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import AddTodo from "./AddTodo";
-import { v4 as uuidv4 } from "uuid";
 import Todo from "./Todo";
 import { styled } from "styled-components";
+import { RiUnderline } from "react-icons/ri";
 
 export default function Todolist({ filter }) {
   const [todos, setTodos] = useState(readTodo);
@@ -38,7 +38,6 @@ export default function Todolist({ filter }) {
 }
 
 function readTodo() {
-  console.log("readTodo");
   const todos = localStorage.getItem("todos");
   return todos ? JSON.parse(todos) : [];
 }

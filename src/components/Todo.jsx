@@ -1,14 +1,17 @@
 import React from "react";
 import { FcEmptyTrash } from "react-icons/fc";
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
+import { darken, lighten } from "polished";
 
 export default function Todo({ todo, onUpdate, onDelete }) {
   const { text, done, id } = todo;
+
+  // 투두 체크박스
   const handleChange = (e) => {
     const done = e.target.checked ? "finished" : "nope";
     onUpdate({ ...todo, done });
   };
-
+  // 투두 삭제
   const handleDelete = (e) => onDelete(todo);
 
   return (
@@ -19,7 +22,14 @@ export default function Todo({ todo, onUpdate, onDelete }) {
         checked={done === "finished"}
         onChange={handleChange}
       />
-      <Label htmlFor={id}>{text}</Label>
+      <Label
+        htmlFor={id}
+        style={{
+          textDecoration: done === "finished" ? "line-through" : "none",
+        }}
+      >
+        {text}
+      </Label>
       <Icon>
         <Button onClick={handleDelete}>
           <FcEmptyTrash />
@@ -37,6 +47,7 @@ const TodoList = styled.li`
   margin: 0.1rem 0;
   color: var(--color-text);
   form-weight: 600;
+  textdecoration: "none";
 `;
 const Checkbox = styled.input`
   width: 1.2rem;

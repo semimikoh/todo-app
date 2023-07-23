@@ -1,11 +1,10 @@
 import { lighten } from "polished";
-import React, { useId, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { styled } from "styled-components";
 import { v4 as uuidv4 } from "uuid";
 
 export default function AddTodo({ onAdd }) {
   const [text, setText] = useState("");
-  const uniqueId = useId();
   const inputRef = useRef();
   const handleChange = (e) => setText(e.target.value);
   const handleSubmit = (e) => {
