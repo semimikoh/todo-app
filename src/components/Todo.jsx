@@ -1,7 +1,6 @@
 import React from "react";
 import { FcEmptyTrash } from "react-icons/fc";
-import { css, styled } from "styled-components";
-import { darken, lighten } from "polished";
+import { styled } from "styled-components";
 
 export default function Todo({ todo, onUpdate, onDelete }) {
   const { text, done, id } = todo;
