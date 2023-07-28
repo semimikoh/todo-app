@@ -26,4 +26,4 @@ Light/ Dark 모드는 전체 적용해야 하기때문에 useContex를 이용하
 
 ## Link
 
-[📎 링크](https://yoonzeen.github.io/jei_react/)
+[📎 링크](https://semimikoh.github.io/todo-app/)
