@@ -1,4 +1,4 @@
-# TODOLIST-설명
+# TODO-APP
 ![1111](https://github.com/semimikoh/todo-app/assets/123785695/a5b69e85-5284-42cb-8590-42eecf921464)
 ![2222](https://github.com/semimikoh/todo-app/assets/123785695/db74f1b3-4878-4db9-bc73-da4e16c9362f)
 
